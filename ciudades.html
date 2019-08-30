@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Turismo Argentina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src= "js/script.js"></script>
+    <link rel="shortcut icon" href="minilogo.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header class=container-fluid>
+        <div id="carouselExampleIndicators" class="carousel slide  " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carousel-img" src="css/images/1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-img" src="css/images/2.jpg" alt="Second slide">
+              </div>
+             
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </header>
+      <div class="container-fluid col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href=""> </a>
+                <img alt="Brand" src="logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">ciudades</a>
+                    </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="lugares.html">Lugares mas visitados</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#contacto">Contacto</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+              </div>
+          </nav>
+        </div>
+      <div class="container-fluid contenedorlista">
+      <ul class="list-group">
+          <h2> <a name="listado" id="listado"></a>Lista de las ciudades más destacadas de la Argentina</h2>
+          <li><a href = "ciudades.html#bsas" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">Buenos Aires</a></li>
+          <li><a href = "ciudades.html#carlospaz" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">Villa Carlos Paz</a></li>
+          <li><a href = "ciudades.html#iguazu" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">Puerto Iguazú, Prov. Misiones</a></li>
+          <li><a href = "ciudades.html#elcalafate" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">El Calafate, Prov. Santa Cruz</a</li>
+          <li><a href = "ciudades.html#bariloche" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">San Carlos de Bariloche, Prov. Neuquén</a></li>
+          <li><a href = "ciudades.html#salta" class="list-group-item list-group-item-action list-group-item-success font-weight-bold text-success">Salta, Prov. Salta</a></li>
+         </ul>
+      </div>
+      
+      <section>
+        <div class="card-deck paddingcard">
+          <section class="card card text-white bg-dark mb-3 carta">
+                <a name="bsas" id="bsas"></a>
+              <img class="card-img-top imgigualar" src="css/images/obelisco.jpg" alt="Card image cap">
+              <div class="text-center">
+                <img src="css/images/provbsas.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Buenos Aires, Prov. Buenos Aires</h5>
+                <p class="card-text">Buenos Aires es una ciudad cosmopolita y un importante destino turístico.​ Su compleja infraestructura la convierte en una de las metrópolis de mayor importancia en América y es una ciudad global de categoría alfa,​ dadas sus influencias en el comercio, finanzas, moda, arte, gastronomía, educación, entretenimiento y principalmente en su marcada cultura.
+                    La ciudad de Buenos Aires evolucionó a partir de diversas corrientes inmigratorias pertenecientes a diferentes culturas y, en consecuencia, han creado un remarcado eclecticismo que se evidencia en su arquitectura en la cual pueden hallarse expresiones que van del frío academicismo francés o el art decó, hasta el alegre art nouveau; del neogótico moderno, pasando por el francés borbónico, al rascacielos moderno realizado en vidrio u hormigón. O estilos muy peculiares, como por ejemplo, el del colorido barrio italiano de La Boca, además de edificaciones de la época colonial o neocolonial.
+                    Buenos Aires cuenta con 5,5 millones de visitas al año. Es una ciudad populosa y se encuentra entre los 20 destinos preferidos en todo el mundo.
+                    Entre los lugares turísticos más importantes de la ciudad se encuentran Palermo, San Telmo, La Boca, Puerto Madero, Plaza de Mayo, el microcentro, Recoleta, el Congreso, Tigre y Belgrano.</p>
+                <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+          </section>
+        
+          <section class="card card text-white bg-dark mb-3 carta">
+            
+                <a name="carlospaz" id="carlospaz"></a>
+              <img class="card-img-top imgigualar" src="css/images/lagovilla.jpg" alt="Card image cap">
+              <div class="text-center">
+                  <img src="css/images/cordoba.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Villa Carlos Paz, Prov. Córdoba</h5>
+                <p class="card-text">Villa Carlos Paz es una ciudad turística ubicada al noroeste de la provincia de Córdoba, Argentina, en la región de las Sierras de Córdoba, más precisamente dentro del valle de Punilla, junto al dique San Roque. Es el centro turístico más importante de la provincia de Córdoba y uno de los más importantes del país. La ciudad es reconocida por ser uno de los destinos veraniegos más elegidos para las vacaciones familiares (enero y febrero) mientras que durante el resto del año es posible observar por sus calles a estudiantes y jubilados de todo el país. Además Carlos Paz se encuentra ubicada cerca de la capital provincial y de otras ciudades de gran importancia turística como Cosquín, Alta Gracia, Tanti, Icho Cruz, Mayu Sumaj y Cuesta Blanca, entre otras.
+                    La principal actividad económica de Carlos Paz se basa en el turismo, lo cual se ve reflejado en la gran oferta de bienes y servicios, sobre todo hoteleros y gastronómicos. La ciudad se destaca por su agradable clima serrano y atractivos paisajes, como los diversos balnearios y el dique San Roque. El reloj Cucú, la aerosilla, el cerro La Cruz, los teatros, el Rally, su costanera, sus casinos y algunas discotecas nocturnas se han convertido con el tiempo en emblemas de la ciudad reconocidos a nivel nacional.
+                    En la ciudad es atractiva su arquitectura ecléctica, también resultan atractivos arquitectónicos algunos edificios dedicados a ser discotecas y locales nocturnos (muchos de ellos construidos en la década de 1960).
+                    Entre los lugares más importantes de la ciudad y alrededores se encuentran el Reloj cucú, Aerosilla, Cerro La Cruz, Playa de los Hippies, Balneario Fantasio, el Centro de Carlos Paz, Av. Libertad.</p>
+                <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+            </section>
+            <section class="card card text-white bg-dark mb-3 carta">
+            
+                <a name="iguazu" id="iguazu"></a>
+              <img class="card-img-top imgigualar" src="css/images/cataratasiguazu.jpg" alt="Card image cap">
+              <div class="text-center">
+                  <img src="css/images/misiones.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Puerto Iguazú, Prov. Misiones</h5>
+                <p class="card-text"> Puerto Iguazú es una ciudad de la provincia de Misiones, en el extremo nordeste de la Argentina. Esta localidad se encuentra situada a 17 km de las cataratas del Iguazú, una de las Siete maravillas naturales del mundo. La actividad turística, centrada en estas cataratas, es su principal motor económico.
+                El turismo es la principal actividad económica, ya que la hotelería y el comercio son las principales fuentes de trabajo. Además llegó a la ciudad un gran número de hoteles internacionales (además de los ya existentes) que están construyendo sus edificaciones a orillas del río Iguazú, junto a un campo de golf, un albergue juvenil y cabañas para turistas (todos en construcción). Esta zona comprende unas 600 ha, y se ubica al este del Puente Internacional Tancredo Neves.
+                Algunos atractivos turísticos (además de las Cataratas del Iguazú) son el Hito Tres Fronteras, la feria artesanal ubicada en el mismo, el complejo La Aripuca, el puerto, el Museo de Imágenes de la selva, el Museo Mbororé, el Parque Natural Municipal Luis Honorio Rolón, el centro de rehabilitación para aves Güira Oga y un casino internacional (que forma parte de un hotel).
+                La ciudad posee un centro comercial en las cercanías del Puente Internacional, el Duty Free Shop. En la zona céntrica hay bancos, casas de cambio, bares, casinos, restaurantes, tiendas de ropa, tiendas deportivas, discotecas, pubs y confiterías.</p>
+                  <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+          </section>
+        </div>
+        <div class="card-deck paddingcard">
+          <section class="card card text-white bg-dark mb-3 carta">
+            
+                <a name="elcalafate" id="elcalafate"></a>
+              <img class="card-img-top imgigualar" src="css/images/2.jpg" alt="Card image cap">
+              <div class="text-center">
+                <img src="css/images/santacruz.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">El Calafate, Prov. Santa Cruz</h5>
+                <p class="card-text"> El Calafate, llamado popularmente «Calafate», es una ciudad ubicada en la ribera meridional del lago Argentino, en la región de la Patagonia, en la provincia de Santa Cruz, Argentina, a unos 80 km del glaciar Perito Moreno. Es la cabecera del departamento Lago Argentino.
+                Debido a la existencia de los grandes lagos Argentino y Viedma como a su estratégica ubicación, la ciudad de El Calafate es el punto central de las actividades turísticas en la región, tanto dentro como fuera del Parque Nacional Los Glaciares.
+                En el área del parque nacional se realizan las excursiones a los glaciares del parque nacional Los Glaciares, entre los que se destaca el Perito Moreno, la mayor atracción del mismo, el mini-trekking sobre el mismo glaciar, la navegación por los canales del lago argentino, visitando la Bahía Onelli y los inmensos glaciares Upsala, Spegazzini, Onelli, y Seco, entre otros. La intendencia del parque nacional se encuentra en la ciudad de El Calafate.</p>
+                <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+          </section>
+          
+          <section class="card card text-white bg-dark mb-3 carta">
+            
+                <a name="bariloche" id="bariloche"></a>
+              <img class="card-img-top imgigualar" src="css/images/lagonahuelhuapi.jpg" alt="Card image cap">
+              <div class="text-center">
+                  <img src="css/images/neuquen.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">San Carlos de Bariloche, Prov. Neuquén</h5>
+                <p class="card-text">Es la ciudad argentina más poblada de los Andes Patagónicos. Está ubicada en el parque nacional Nahuel Huapi, en el suroeste de la provincia de Río Negro, junto a la cordillera de los Andes, en la ribera sur del lago Nahuel Huapi, a 832 km de Viedma, la capital de la provincia. Sus reservas naturales, que incluyen lagos, bosques y montañas, y sus destacados centros de esquí son el principal atractivo barilochense. La ciudad ha sido considerada por algunas fuentes como el segundo destino de esquí a nivel mundial y el más grande de América del Sur.</p>
+                En sus orígenes la mayoría de las construcciones eran de madera, siguiendo estilos de construcción inspirados en diseños alpinos y europeos, ya que los primeros hombres blancos que se asentaron en el lugar fueron inmigrantes de origen alemán.
+                    El estilo constructivo es parte del legado histórico de la ciudad y perdura hasta nuestros días. Un aserradero propiedad de Primo Capraro (italiano oriundo de la ciudad de Belluno) ubicado en el predio ocupado actualmente por el Centro Cívico sobre el Arroyo sin nombre era uno de los principales proveedores de materia prima para la construcción.
+                    Entre 1935 y 1940, la Dirección de Parques Nacionales realizó una serie de obras y edificios, embelleciendo y caracterizando con dicha arquitectura la ciudad. Algunas de ellas son el Centro Cívico, proyecto del arquitecto Ernesto De Estrada, que albergaba a la biblioteca con un teatro, el Museo de la Patagonia, el edificio de la Municipalidad con su torre con reloj, la oficina de correos y telégrafos, la policía y la aduana. También se destacan la Catedral de Bariloche, el Hotel Llao Llao y la Capilla San Eduardo entre otros proyectados por el arquitecto Alejandro Bustillo. El estilo que tenía la ciudad se ha ido perdiendo poco a poco, ya que se han construido edificaciones de gran tamaño y de varias plantas, en las que se dejan de usar la madera, la caída a dos aguas y los revestimientos de piedra. Es habitual observar edificaciones con losa en el techo y con revoque común.
+                El turismo es la principal actividad económica de la ciudad. Por sus características geográficas, existen actividades que se desarrollan durante los meses de verano y otras propias del invierno. La ciudad está emplazada en el centro del parque nacional Nahuel Huapi y es la puerta de acceso (por vía acuática) del parque nacional Los Arrayanes que protege un estimado bosque de arrayanes. Una serie de catamaranes especialmente acondicionados, permiten realizar paseos y excursiones lacustres por el lago Nahuel Huapi.
+                Recibe anualmente turismo nacional e internacional, que se deleita en las múltiples actividades que ofrece esta ciudad al borde del lago Nahuel Huapi. El centro de esquí más importante de Argentina es el cerro Catedral, ubicado a 20 km de San Carlos de Bariloche. Otro centro de esquí es el cerro Otto donde se practica esquí nórdico, también conocido como esquí de fondo o cross country.
+                El agua de los ríos y lagos es fría en toda época debido al deshielo, no obstante durante los meses de verano incluso en marzo mucha gente acude a las playas soleadas del Nahuel Huapi como: Bonita, Serena y los lagos Moreno y Gutiérrez, e incluso disfrutan de un baño. En los lagos y ríos de la región se practican actividades náuticas, incluyendo velerismo, canotaje y rafting de ríos de montaña. Además posee varios circuitos de excursiones equinas, como Piedras Blancas.</p>
+                <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+          </section>
+          <section class="card card text-white bg-dark mb-3 carta">
+            
+                <a name="salta" id="salta"></a>
+              <img class="card-img-top imgigualar" src="css/images/1.jpg" alt="Card image cap">
+              <div class="text-center">
+                  <img src="css/images/salta.jpg" alt="" class="img-fluid imgcentral rounded-circle">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Salta, Prov. Salta</h5>
+                <p class="card-text"> Salta es una ciudad, un municipio y la capital de la provincia de Salta, República Argentina, que tiene una población de 535 303 habitantes, siendo la ciudad más poblada de la provincia y la séptima del país. Su área metropolitana, denominada Gran Salta.
+                El patrimonio histórico y monumental y los diversos espacios escénicos y culturales convierten a Salta en una ciudad receptora de turismo nacional e internacional.
+                El Aeropuerto Internacional Martín Miguel de Güemes es el principal punto de llegada de turistas extranjeros y nacionales a la provincia. Su segundo, a través de la Terminal de ómnibus de la Ciudad de Salta.
+                El alojamiento se realiza principalmente en la capital provincial desde donde pueden adquirirse con mucha facilidad diferentes tours (que se realizan en el día) a cualquier punto de la provincia, inclusive a la Quebrada de Humahuaca o Purmamarca (Provincia de Jujuy) y a la Ciudad de San Salvador de Jujuy (capital provincial).</p>
+                  <a href="ciudades.html#listado" class="btn btn-primary">Vuelve al listado!</a>
+              </div>
+            
+          </section>
+        </div>
+      </section>
+      <footer>
+          <div class="container-fluid bg-primary py-3">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-7">
+                 <div class="row py-0">
+               <div class="col-sm-1 hidden-md-down">
+                   <a class="bg-circle bg-info" href="#">
+                     <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
+                   </a>
+                 </div>
+                 <div class="col-sm-11 text-white">
+                     <div><h4>  Contact</h4>
+                         <p>  <span class="header-font"></span><span class="header-font"></span>exploargentina.com</p>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+             <div class="col-md-5">
+               <div class="d-inline-block">
+                 <div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
+                   <a href="https://www.facebook.com/" ><i class="fa fa-2x fa-fw fa-facebook text-white"></i></a>
+                 </div>
+                 <div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
+                   <a href="https://twitter.com/">
+                     <i class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
+                 </div>
+     
+                 <div class="bg-circle-outline d-inline-block" style="background-color:#0077B5">
+                   <a href="https://www.linkedin.com/company/">
+                     <i class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
+                 </div>
+                 <div class="bg-circle-outline d-inline-block" style="background-color:#d34836">
+                   <a href="https://www.google.com/">
+                     <i class="fa fa-2x fa-fw fa-google text-white"></i></a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         </div>
+     </footer>
+         <!--/.footer-->
+     <p class="text-center"> Copyright © TUDAI-EXA 2019. All right reserved. </p>
+         <!--/.footer-bottom--> 
+                  
+</body>
+</html>
