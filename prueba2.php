@@ -9,7 +9,7 @@
             echo "<h1>¡Hola, soy un script de PHP!</h1>";
         ?>
     <?php
-        define("CONSTANTE", "Hello world.");
+        define("CONSTANTE", "Hello world.Hola mundo   ");
         echo CONSTANTE; // outputs "Hello world."
     ?>
 
