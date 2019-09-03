@@ -24,6 +24,7 @@
         echo $edades["juan"]; //imprime 35
         echo "///////////////////";
         echo $edades["julia"]; //imprime 23
+        //cometario de prueba
 
         echo "suma de edades = " . array_sum($edades) . "\n";
     ?>
